@@ -1,0 +1,25 @@
+  .layout {
+    min-height: 100vh;
+
+    .navbar {
+      min-width: 170px;
+    }
+
+    .outlet {
+      margin: 0 16px;
+      flex: 3;
+    }
+
+    .profile {
+      flex: 1;
+    }
+  }
+
+  .outlet,
+  .navbar,
+  .profile,
+  .layout {
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }

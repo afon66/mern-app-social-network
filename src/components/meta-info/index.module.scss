@@ -1,0 +1,20 @@
+.metaInfo {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+
+  .metaIcon {
+    padding: 0;
+    margin: 0;
+
+    svg {
+      height: 1.2em;
+      width: auto;
+    }
+  }
+
+  .metaCount {
+    padding: 0 4px 0 0;
+    margin: 0;
+  }
+}

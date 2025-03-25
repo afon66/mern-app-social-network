@@ -1,0 +1,47 @@
+.userContainer {
+  display: flex;
+  gap: 20px;
+
+  .avatarCard {
+    flex: 1;
+    border: 1px solid var(--border-background);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--card-background);
+
+    img {
+      max-width: 100%;
+      height: 250px;
+      border-radius: 8px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    button {
+      border: 1px solid;
+      margin-top: 15px;
+    }
+  }
+
+  .infoCard {
+    flex: 3;
+    border: 1px solid var(--border-background);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: var(--card-background);
+
+
+    .followCard {
+      display: flex;
+      align-items: center;
+      margin: 30px 0 0 15px;
+      gap: 20px;
+    }
+  }
+}

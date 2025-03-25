@@ -1,0 +1,74 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --card-background: #f5f5f5;
+  --border-background: #000000;
+  --input-background: #e8e8e8;
+  --button-background: #4caf50;
+  --button-text-color: #fff;
+}
+
+.dark {
+  --background-color: #000000;  /* Темный, но не черный */
+  --text-color: #e0e0e0;  /* Светло-серый текст */
+  --card-background: #1e1e1e; /* Фон карточек */
+  --border-background: #1e1e1e;
+  --input-background: #2a2a2a; /* Поля ввода */
+  --button-background: #00c853; /* Яркий акцентный цвет */
+  --button-text-color: #000;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Стили для карточек */
+.card, .ant-card, .post {
+  background: var(--card-background) !important;
+  color: var(--text-color) !important;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Мягкие тени */
+}
+
+/* Поля ввода */
+input, textarea {
+  background: var(--input-background);
+  color: var(--text-color);
+  border: 1px solid var(--border-background);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+/* Кнопки */
+button, .ant-btn {
+  background: var(--button-background) !important;
+  color: var(--button-text-color) !important;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+button:hover, .ant-btn:hover {
+  background: #00e676 !important; /* Чуть ярче при наведении */
+}
+
+.dark-theme .ant-modal-content {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+.dark-theme .ant-modal-header {
+  background-color: #444 !important;
+  color: #fff !important;
+}
+
+.dark-theme .ant-modal-footer {
+  background-color: #333 !important;
+}
+
+
+

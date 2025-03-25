@@ -1,0 +1,24 @@
+.profileCard {
+  padding: 10px;
+  border: 1px solid var(--border-background);
+  border-radius: 10px;
+  background-color: var(--card-background);
+
+  .avatar {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-weight: 600;
+    font-size: 16px
+  } 
+
+  .email {
+    font-size: 13px;
+    margin: 0;
+  }
+}

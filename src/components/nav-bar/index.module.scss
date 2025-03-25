@@ -1,0 +1,11 @@
+.menuContainer {
+  border: 1px solid var(--border-background);
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--card-background);
+
+  .menu {
+    border-radius: 8px;
+    background-color: var(--card-background);
+  }
+}
